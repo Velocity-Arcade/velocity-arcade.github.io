@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Onest', sans-serif;
+    font-size: 18px;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+a {
+    color: black;
+}
+
+header {
+    padding: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: white;
+    background-color: red;
+    font-family: "Onest", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 100px;
+}
+
+button:hover {
+    background-color: #ff6969;
+}
+
+button:active {
+    background-color: #ffa4a4;
+}
+
+#is-open {
+    color: red;
+    margin: 0;
+    font-family: "Dancing Script", cursive;
+    font-size: 120%;
+    transform: translate(100px, -25px) rotate(-8deg);
+}
+
+section, aside {
+    padding: 15px;
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+.faq {
+    font-weight: normal;
+}
+
+#selling-points {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+#selling-points strong {
+    font-weight: bold;
+    color: red;
+}
+
+#selling-points span {
+    font-size: 50%;
+    font-weight: normal;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark)
+{
+    body {
+        background-color: #1e1e1e;
+        color: white;
+    }
+    a {
+        color: white;
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "welcome": [
+        "Welcome, friendly pursuer of JSON.",
+        "This is the library.json file for Velocity's Arcade.",
+        "Check out arcade.js to see how the Arcade is populated.",
+        "If you make your own frontend, please let me know! I wanna see it!",
+        "I might even make my own official frontend at some point.",
+        "Thanks, and have fun!",
+        "- Arsalan 'Velocity' Kazmi"
+    ],
+    "games": [
+        {
+            "id": "example-game",
+            "name": "Example Game",
+            "description": "An example game. Contains no actual game data.",
+            "type": "Desktop",
+            "version": "1.0.0",
+            "lastUpdated": "2023-11-10",
+            "author": "Arsalan 'Velocity' Kazmi",
+            "sourceRepo": "example-game",
+            "controllerSupport": true,
+            "platforms": [
+                "Windows",
+                "Linux"
+            ],
+            "links": {
+                "windows": "https://github.com/velocity-arcade/example-game/releases/download/1.0.0/example-game-w32.zip",
+                "linux": "https://github.com/velocity-arcade/example-game/releases/download/1.0.0/example-game-gnu.zip"
+            }
+        },
+        {
+            "id": "example-web-game",
+            "name": "Example Web Game",
+            "description": "An example web game. Contains no actual game data.",
+            "type": "Web",
+            "version": "1.0.0",
+            "lastUpdated": "2023-11-10",
+            "author": "Arsalan 'Velocity' Kazmi",
+            "sourceRepo": "example-web-game",
+            "controllerSupport": false,
+            "platforms": [
+                "Browser"
+            ],
+            "links": {
+                "webpage": "https://velocity-arcade.github.io/example-web-game.html"
+            }
+        },
+        {
+            "id": "example-mod",
+            "name": "Example DOOM Mod",
+            "description": "An example DOOM mod. Contains no actual mod data.",
+            "type": "GZDoom",
+            "version": "1.0.0",
+            "lastUpdated": "2023-11-10",
+            "author": "Arsalan 'Velocity' Kazmi",
+            "sourceRepo": "example-mod",
+            "controllerSupport": true,
+            "platforms": [
+                "Windows",
+                "macOS",
+                "Linux",
+                "Android"
+            ],
+            "links": {
+                "gzdoom": "https://velocity-arcade.github.io/example-mod/releases/download/1.0.0/example-mod.pk3"
+            }
+        }
+    ]
+}
